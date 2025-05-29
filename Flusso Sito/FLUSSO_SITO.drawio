@@ -1,0 +1,664 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="Pagina-1" id="b5bSMVHtpyGlDIJyutPw">
+    <mxGraphModel dx="4014" dy="2902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="160" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--9" value="index.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="679" y="165" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--10" value="pagina principale da cui si può&amp;nbsp;&lt;div&gt;accedere &lt;span style=&quot;background-color: initial;&quot;&gt;a tutte le funzionalità&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;del sistema&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="624" y="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="355" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--12" value="ospedale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-371" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--13" value="pagina in cui si gestiscono le&amp;nbsp;&lt;div&gt;azioni sugli ospedali.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-411" y="385" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-88.5" y="517.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--15" value="reparto.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-29.5" y="522.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--16" value="pagina in cui si gestiscono le&amp;nbsp;&lt;div&gt;azioni sui reparti&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-79.5" y="547.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="437.5" y="590" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--18" value="personale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="486.5" y="595" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--19" value="pagina in cui si gestiscono le&amp;nbsp;&lt;div&gt;azioni sul personale&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="446.5" y="620" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="18" y="-60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--21" value="esame.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="77" y="-55" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--22" value="pagina in cui si gestiscono le&amp;nbsp;&lt;div&gt;azioni sugli esami&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="27" y="-30" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="659" y="-135" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--24" value="paziente.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="713" y="-130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--25" value="pagina in cui si gestiscono le&amp;nbsp;&lt;div&gt;azioni sui pazienti&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="668" y="-105" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1054" y="495" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--27" value="prenotazione.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1093" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--28" value="pagina in cui si gestiscono le&amp;nbsp;&lt;div&gt;azioni sulle prenotazioni&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1063" y="525" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="250" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--30" value="turniProntoSoccorso.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1219" y="255" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--31" value="pagina in cui si gestiscono le&amp;nbsp;&lt;div&gt;azioni sui turni del pronto soccorso&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1194" y="280" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--32" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1331" y="-135" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--33" value="ambulatori.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="-130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--34" value="pagina in cui si gestiscono le&amp;nbsp;&lt;div&gt;azioni sugli ambulatori interni e esterni.&lt;/div&gt;&lt;div&gt;Mostrerò le pagine solo per gli interni&amp;nbsp;&lt;/div&gt;&lt;div&gt;ma ci sono le corrispettive per quelli&lt;/div&gt;&lt;div&gt;esterni&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1316" y="-105" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--35" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-726" y="80" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--36" value="aggiungiOspedale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-697" y="85" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--37" value="è possibile aggiungere un ospedale" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-732" y="125" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--38" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-790" y="250" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--39" value="visualizzaOspedali.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-766" y="255" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--40" value="è possibile visualizzare tutti gli&amp;nbsp;&lt;div&gt;ospedali e cliccando su modifica&lt;/div&gt;&lt;div&gt;accedere alla modifica di&amp;nbsp;&lt;/div&gt;&lt;div&gt;quell&#39;ospedale&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-791" y="275" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--41" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-786" y="460" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--42" value="modificaOspedale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-757" y="465" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--43" value="modifica gli ospedali" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-752" y="505" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--44" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="670" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--45" value="eliminaOspedale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-701" y="675" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--46" value="elimina un&#39;ospedale" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-696" y="715" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--47" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-300" y="330" as="sourcePoint" />
+            <mxPoint x="590" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--48" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="500" as="sourcePoint" />
+            <mxPoint x="590" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--49" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="570" as="sourcePoint" />
+            <mxPoint x="650" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--50" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="140" as="sourcePoint" />
+            <mxPoint x="240" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--51" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="130" as="sourcePoint" />
+            <mxPoint x="760" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--53" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="480" as="sourcePoint" />
+            <mxPoint x="770" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--54" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="300" as="sourcePoint" />
+            <mxPoint x="860" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--56" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-420" y="340" as="sourcePoint" />
+            <mxPoint x="-520" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-570" y="330" as="sourcePoint" />
+            <mxPoint x="-460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--59" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="fyXsXL8FuOWfnYwmiEP--44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-460" y="450" as="sourcePoint" />
+            <mxPoint x="-400" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--60" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-690" y="440" as="sourcePoint" />
+            <mxPoint x="-690" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--61" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-329" y="752.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--62" value="inserisciReparto.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-295" y="757.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--63" value="&lt;div&gt;aggiungi un reparto selezionando&lt;/div&gt;&lt;div&gt;l&#39;ospedale di appartenenza&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="792.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--64" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-288.5" y="912.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--65" value="visualizzaReparti.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-259.5" y="917.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--66" value="&lt;div&gt;visualizza i reparti relativi&lt;/div&gt;&lt;div&gt;ad un determinato ospedale&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-274.5" y="952.5" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--67" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-34.5" y="912.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--68" value="eliminaReparto.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-0.5" y="917.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--69" value="&lt;div&gt;elimina un reparto relativo ad&lt;/div&gt;&lt;div&gt;un determinato ospedale&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-25.5" y="952.5" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--70" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="67.5" y="757.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--71" value="modificaReparto.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="101.5" y="762.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--72" value="&lt;div&gt;modifica i dati di un reparto&lt;/div&gt;&lt;div&gt;relativi ad un determinato ospedale&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="61.5" y="797.5" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--73" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-198.5" y="737.5" as="sourcePoint" />
+            <mxPoint x="-58.5" y="627.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--74" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-118.5" y="897.5" as="sourcePoint" />
+            <mxPoint x="-38.5" y="637.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--75" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-8.5" y="897.5" as="sourcePoint" />
+            <mxPoint x="1.5" y="637.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--76" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="71.5" y="747.5" as="sourcePoint" />
+            <mxPoint x="41.5" y="637.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--87" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="334" y="825" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--88" value="inserisciPersonale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="363" y="830" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--89" value="&lt;div&gt;inserisce un personale con il suo ruolo&lt;/div&gt;&lt;div&gt;in un reparto di un ospedale&lt;/div&gt;&lt;div&gt;selezionati&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="319" y="855" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--90" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="438" y="965" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--91" value="visualizzaPersonale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="462" y="970" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--92" value="&lt;div&gt;visualizza il personale filtrando per&lt;/div&gt;&lt;div&gt;tipo, reparto e ospedale&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="432" y="1005" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--93" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="692" y="965" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--94" value="eliminaPersonale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="721" y="970" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--95" value="&lt;div&gt;prima effettua la ricerca come in&amp;nbsp;&lt;/div&gt;&lt;div&gt;visualizza e poi permette di selezionare&lt;/div&gt;&lt;div&gt;il personale che vuole essere&amp;nbsp;&lt;/div&gt;&lt;div&gt;eliminato&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="676" y="990" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--96" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="739" y="755" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--97" value="modificaPersonale.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="763" y="760" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--98" value="&lt;div&gt;viene effettuata la ricerca del personale&lt;/div&gt;&lt;div&gt;per cf e poi si possono modificare&lt;/div&gt;&lt;div&gt;i suoi dati non anagrafici&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="723" y="785" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--99" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="433" y="810" as="sourcePoint" />
+            <mxPoint x="473" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--100" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573" y="940" as="sourcePoint" />
+            <mxPoint x="563" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--101" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="950" as="sourcePoint" />
+            <mxPoint x="613" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--102" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="723" y="750" as="sourcePoint" />
+            <mxPoint x="653" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--103" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="-70" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--104" value="inserisciEsame.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-386" y="-65" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--105" value="&lt;div&gt;permette di inserire un esame&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-411" y="-25" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--106" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-319.5" y="-330" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--107" value="visualizzaEsami.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-285.5" y="-325" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--108" value="&lt;div&gt;visualizza tutti gli esami&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-295.5" y="-285" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--109" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-98.5" y="-500" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--110" value="modificaEsame.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-64.5" y="-495" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--111" value="&lt;div&gt;permette di selezionare un&lt;/div&gt;&lt;div&gt;esame e poi di modificarlo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-79.5" y="-460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--112" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="154.5" y="-330" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--113" value="eliminaEsame.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="193.5" y="-325" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--114" value="&lt;div&gt;permette di selezionare un esame&lt;/div&gt;&lt;div&gt;e poi di eliminarlo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="153.5" y="-290" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--115" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="-40" as="sourcePoint" />
+            <mxPoint x="-10" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--116" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="-210" as="sourcePoint" />
+            <mxPoint x="40" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--117" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="-80" as="sourcePoint" />
+            <mxPoint x="-20" y="-380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--118" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="-70" as="sourcePoint" />
+            <mxPoint x="180" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--120" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="429" y="-325" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--121" value="inserisciPaziente.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="458" y="-320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--122" value="&lt;div&gt;permette di inserire un paziente&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="433" y="-280" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--123" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="423" y="-555" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--124" value="eliminaPaziente.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="457" y="-550" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--125" value="elimina un paziente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="457" y="-510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--126" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="759" y="-570" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--127" value="visualizzaPazienti.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="788" y="-565" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--128" value="&lt;div&gt;pagina che mostra&amp;nbsp; i pazienti e&amp;nbsp;&lt;/div&gt;&lt;div&gt;permette di modificarli o&amp;nbsp;&lt;/div&gt;&lt;div&gt;eliminarli&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="763" y="-540" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--129" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1068" y="-530" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--130" value="modificaPaziente.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1097" y="-525" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--131" value="&lt;div&gt;modifica un paziente&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1102" y="-485" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--132" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="-330" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--133" value="storicoRicoveri.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1054" y="-325" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--134" value="seleziona un paziente e&lt;div&gt;mostra i suoi ricoveri&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1044" y="-290" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--135" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="-155" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--136" value="visualizzaPazientiPrenotazioni.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="994" y="-150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--137" value="seleziona un paziente e mostra le&amp;nbsp;&lt;div&gt;sue prenotazioni&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="994" y="-115" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--138" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-130" as="sourcePoint" />
+            <mxPoint x="580" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--139" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="-150" as="sourcePoint" />
+            <mxPoint x="840" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--140" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-500" as="sourcePoint" />
+            <mxPoint x="740" y="-510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--141" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="-440" as="sourcePoint" />
+            <mxPoint x="810" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--142" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="-140" as="sourcePoint" />
+            <mxPoint x="1010" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--143" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="-60" as="sourcePoint" />
+            <mxPoint x="980" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--144" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="752.5" width="200" height="137.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--145" value="aggiungiPrenotazione.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1029" y="757.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--146" value="&lt;div&gt;permette di selezionare un paziente,&lt;/div&gt;&lt;div&gt;un esame e il tipo di ambulatorio&lt;/div&gt;&lt;div&gt;e a quel punto inserisce i dati e&amp;nbsp;&lt;/div&gt;&lt;div&gt;seleziona tra le disponibilità&amp;nbsp;&lt;/div&gt;&lt;div&gt;presenti per quel tipo di ambulatorio&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="785" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--147" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="832.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--148" value="modificaPrenotazione.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1349" y="837.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--149" value="&lt;div&gt;permette di selezionare una&amp;nbsp;&lt;/div&gt;&lt;div&gt;prenotazione e poi di&amp;nbsp;&lt;/div&gt;&lt;div&gt;modificarne i dati&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="862.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--150" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1519" y="670" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--151" value="eliminaPrenotazione.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1538" y="675" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--152" value="&lt;div&gt;permette di selezionare una&lt;/div&gt;&lt;div&gt;prenotazione e poi di&lt;/div&gt;&lt;div&gt;eliminarla&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1533" y="700" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--153" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1489" y="495" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--154" value="visualizzaPrenotazioni.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1503" y="500" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--155" value="&lt;div&gt;permette di visualizzare tutte le&lt;/div&gt;&lt;div&gt;prenotazioni&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1493" y="535" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--156" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="730" as="sourcePoint" />
+            <mxPoint x="1130" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--157" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="820" as="sourcePoint" />
+            <mxPoint x="1230" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--158" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="700" as="sourcePoint" />
+            <mxPoint x="1290" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--159" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="550" as="sourcePoint" />
+            <mxPoint x="1470" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--160" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1626" y="355" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--161" value="aggiungiTurno.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1665" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--162" value="&lt;div&gt;permette di aggiungere un&amp;nbsp;&lt;/div&gt;&lt;div&gt;turno&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="395" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--163" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1843" y="230" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--164" value="modificaTurno.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1882" y="235" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--165" value="&lt;div&gt;permette di modificare il turno&amp;nbsp;&lt;/div&gt;&lt;div&gt;selezionato&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1852" y="270" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--166" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1736" y="55" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--167" value="visualizzaTurni.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="60" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--168" value="&lt;div&gt;visualizza tutti i turni e permette di&amp;nbsp;&lt;/div&gt;&lt;div&gt;accedere alla modifica o&amp;nbsp;&lt;/div&gt;&lt;div&gt;all elimina&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1730" y="85" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--169" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1386" y="50" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--170" value="eliminaTurno.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1425" y="55" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--171" value="&lt;div&gt;elimina il turno selezionato&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1405" y="95" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--172" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1410" y="350" as="sourcePoint" />
+            <mxPoint x="1600" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--173" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="270" as="sourcePoint" />
+            <mxPoint x="1740" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--175" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="110" as="sourcePoint" />
+            <mxPoint x="1720" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--176" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1860" y="220" as="sourcePoint" />
+            <mxPoint x="1850" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--177" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="160" as="sourcePoint" />
+            <mxPoint x="1300" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--178" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="-350" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--179" value="aggiungiAmbulatorioInterno.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1364" y="-345" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--180" value="&lt;div&gt;permette di aggiungere&lt;/div&gt;&lt;div&gt;un ambulatorio interno&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1384" y="-310" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--181" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1656" y="-510" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--182" value="visualizzaAmbulatoriInterni.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="-505" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--183" value="&lt;div&gt;pagina che permette di visualizzare&lt;/div&gt;&lt;div&gt;tutti gli ambulatori interni di un&amp;nbsp;&lt;/div&gt;&lt;div&gt;ospedale e da li poterlo modificare&lt;/div&gt;&lt;div&gt;o eliminare.&lt;/div&gt;&lt;div&gt;inoltre rimanda anche alla pagina per&amp;nbsp;&lt;/div&gt;&lt;div&gt;aggiungere l&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;ambulatrorio&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1646" y="-475" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--184" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1996" y="-460" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--185" value="modificaAmbulatorioInterno.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2000" y="-455" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--186" value="&lt;div&gt;modifica i dati di un&amp;nbsp;&lt;/div&gt;&lt;div&gt;ambulatorio interno&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2030" y="-420" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--187" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1996" y="-295" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--188" value="eliminaAmbulatorioInterno.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2000" y="-290" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--189" value="&lt;div&gt;elimina un ambulatorio&lt;/div&gt;&lt;div&gt;interno&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2025" y="-255" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--190" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="-120" as="sourcePoint" />
+            <mxPoint x="1710" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--191" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="-360" as="sourcePoint" />
+            <mxPoint x="1640" y="-410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--192" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1880" y="-410" as="sourcePoint" />
+            <mxPoint x="1980" y="-390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--193" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1980" y="-270" as="sourcePoint" />
+            <mxPoint x="1880" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--194" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1842" y="-135" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--195" value="visualizzaDisponibilitaInterna.php" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1841" y="-130" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--196" value="&lt;div&gt;permette di visualizzare le&lt;/div&gt;&lt;div&gt;disponibilità di tutti gli&lt;/div&gt;&lt;div&gt;ambulatori interni&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1861" y="-105" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyXsXL8FuOWfnYwmiEP--197" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="-60" as="sourcePoint" />
+            <mxPoint x="1810" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,355 @@
+-- Popolamento della tabella OSPEDALE
+INSERT INTO OSPEDALE (nome, città, indirizzo) VALUES
+('Ospedale San Martino', 'Genova', 'Via san martino, 15'),
+('Ospedale Galliera', 'Genova', 'Piazza Castelletto, 20');
+
+-- Reparti per l'Ospedale San Martino (Genova)
+INSERT INTO REPARTO (nome, ospedale, telefono, orario_visita) VALUES
+('Dermatologia', 1, '055-1234567', '08:00 - 12:00'),
+('Ginecologia', 1, '055-2345678', '12:00 - 16:00'),
+('Oculistica', 1, '055-3456789', '16:00 - 20:00');
+
+-- Reparti per l'Ospedale Galliera (Genova)
+INSERT INTO REPARTO (nome, ospedale, telefono, orario_visita) VALUES
+('Dermatologia', 2, '081-1234567', '08:00 - 12:00'),
+('Ginecologia', 2, '081-2345678', '12:00 - 16:00'),
+('Oculistica', 2, '081-3456789', '16:00 - 20:00');
+
+-- Popolamento della tabella PRONTOSOCCORSO
+INSERT INTO PRONTOSOCCORSO (nome, ospedale)
+VALUES
+('Pronto Soccorso San Martino', 1),
+('Pronto Soccorso Galliera', 2);
+
+-- Popolamento della tabella INFERMIERE
+INSERT INTO INFERMIERE (cf, nome, cognome)
+VALUES
+('CF101', 'Alessandro', 'Romano'),
+('CF102', 'Giulia', 'Esposito'),
+('CF103', 'Federico', 'Bruno'),
+('CF104', 'Elisa', 'Greco'),
+('CF105', 'Marco', 'Sartori'),
+('CF106', 'Valentina', 'Marini'),
+('CF107', 'Davide', 'De Luca'),
+('CF108', 'Martina', 'Benedetti'),
+('CF109', 'Simone', 'Galli'),
+('CF110', 'Chiara', 'Costa'),
+('CF111', 'Francesco', 'Mazza'),
+('CF112', 'Sara', 'Pellegrino'),
+('CF113', 'Andrea', 'Longo'),
+('CF114', 'Laura', 'Ferrara'),
+('CF115', 'Giorgio', 'Piras'),
+('CF116', 'Anna', 'Fontana'),
+('CF117', 'Luca', 'Sanna'),
+('CF118', 'Francesca', 'Mori');
+
+-- Popolamento della tabella MEDICO
+INSERT INTO MEDICO (cf, nome, cognome, data_assunzione)
+VALUES
+('CF201', 'Riccardo', 'Barbieri', '2019-05-10'),
+('CF202', 'Alessia', 'Riva', '2018-09-15'),
+('CF203', 'Matteo', 'Fabbri', '2020-11-22'),
+('CF204', 'Silvia', 'Monti', '2017-04-30'),
+('CF205', 'Giovanni', 'Conti', '2016-12-01'),
+('CF206', 'Federica', 'Marchetti', '2015-07-18'),
+('CF207', 'Stefano', 'Amico', '2019-03-05'),
+('CF208', 'Elena', 'Moretti', '2020-06-27'),
+('CF209', 'Paolo', 'Lombardi', '2014-10-19'),
+('CF210', 'Giulia', 'Villa', '2018-02-14'),
+('CF211', 'Roberto', 'Parisi', '2017-08-29'),
+('CF212', 'Martina', 'Rossi', '2019-12-12'),
+('CF213', 'Michele', 'Ferraro', '2016-05-21'),
+('CF214', 'Laura', 'De Santis', '2017-07-08'),
+('CF215', 'Lorenzo', 'Bianco', '2018-03-17'),
+('CF216', 'Chiara', 'Gatti', '2019-09-26'),
+('CF217', 'Gabriele', 'Sorrentino', '2020-01-09'),
+('CF218', 'Sara', 'Fontanella', '2015-11-03');
+
+
+INSERT INTO PERSONALE_AMMINISTRATIVO (cf, nome, cognome)
+VALUES
+('CF301', 'Claudia', 'Ferrari'),
+('CF302', 'Enrico', 'Romano'),
+('CF303', 'Ilaria', 'Serra'),
+('CF304', 'Daniele', 'Leone'),
+('CF305', 'Alice', 'Giordano'),
+('CF306', 'Matteo', 'De Rosa'),
+('CF307', 'Valeria', 'Barone'),
+('CF308', 'Giulio', 'Marchetti'),
+('CF309', 'Federica', 'Lombardo'),
+('CF310', 'Nicola', 'Santoro'),
+('CF311', 'Elena', 'Conte'),
+('CF312', 'Andrea', 'Basile'),
+('CF313', 'Silvia', 'Ferri'),
+('CF314', 'Francesco', 'Gentile'),
+('CF315', 'Martina', 'Rinaldi'),
+('CF316', 'Giorgio', 'Piazza'),
+('CF317', 'Sara', 'Sanna'),
+('CF318', 'Luca', 'Valente');
+
+-- Popolamento della tabella RUOLO_INFERMIERE
+INSERT INTO RUOLO_INFERMIERE (data_inizio, infermiere, reparto_nome, reparto_ospedale)
+VALUES
+('2023-09-21', 'CF101', 'Dermatologia', 1),
+('2023-07-15', 'CF102', 'Dermatologia', 1),
+('2022-10-01', 'CF104', 'Ginecologia', 1),
+('2021-05-12', 'CF105', 'Ginecologia', 1),
+('2020-08-03', 'CF107', 'Oculistica', 1),
+('2020-02-29', 'CF108', 'Oculistica', 1),
+('2019-04-10', 'CF110', 'Dermatologia', 2),
+('2018-01-15', 'CF111', 'Dermatologia', 2),
+('2017-03-27', 'CF113', 'Ginecologia', 2),
+('2016-10-02', 'CF114', 'Ginecologia', 2),
+('2015-12-13', 'CF116', 'Oculistica', 2),
+('2014-07-19', 'CF117', 'Oculistica', 2);
+
+-- Popolamento della tabella RUOLO_MEDICO
+INSERT INTO RUOLO_MEDICO (data_inizio, medico, reparto_nome, reparto_ospedale)
+VALUES
+('2023-10-15', 'CF201', 'Dermatologia', 1),
+('2023-07-16', 'CF202', 'Dermatologia', 1),
+('2022-10-02', 'CF204', 'Ginecologia', 1),
+('2021-05-13', 'CF205', 'Ginecologia', 1),
+('2020-08-04', 'CF207', 'Oculistica', 1),
+('2020-03-01', 'CF208', 'Oculistica', 1),
+('2019-04-11', 'CF210', 'Dermatologia', 2),
+('2018-01-16', 'CF211', 'Dermatologia', 2),
+('2017-03-28', 'CF213', 'Ginecologia', 2),
+('2016-10-03', 'CF214', 'Ginecologia', 2),
+('2015-12-14', 'CF216', 'Oculistica', 2),
+('2014-07-20', 'CF217', 'Oculistica', 2);
+
+-- Popolamento della tabella RUOLO_AMMINISTRATIVO
+INSERT INTO RUOLO_AMMINISTRATIVO (data_inizio, amministrativo, reparto_nome, reparto_ospedale)
+VALUES
+('2023-11-03', 'CF301', 'Dermatologia', 1),
+('2023-07-17', 'CF302', 'Dermatologia', 1),
+('2022-11-23', 'CF303', 'Dermatologia', 1),
+('2022-10-03', 'CF304', 'Ginecologia', 1),
+('2021-05-14', 'CF305', 'Ginecologia', 1),
+('2021-11-30', 'CF306', 'Ginecologia', 1),
+('2020-08-05', 'CF307', 'Oculistica', 1),
+('2020-03-02', 'CF308', 'Oculistica', 1),
+('2019-09-07', 'CF309', 'Oculistica', 1),
+('2019-04-12', 'CF310', 'Dermatologia', 2),
+('2018-01-17', 'CF311', 'Dermatologia', 2),
+('2018-08-23', 'CF312', 'Dermatologia', 2),
+('2017-03-29', 'CF313', 'Ginecologia', 2),
+('2016-10-04', 'CF314', 'Ginecologia', 2),
+('2015-05-09', 'CF315', 'Ginecologia', 2),
+('2015-12-15', 'CF316', 'Oculistica', 2),
+('2014-07-21', 'CF317', 'Oculistica', 2),
+('2014-02-25', 'CF318', 'Oculistica', 2);
+
+-- Popolamento della tabella TURNO_INFERMIERE
+INSERT INTO TURNO_INFERMIERE (data, orario_inizio, orario_fine, cf, prontosoccorso, ospedale)
+VALUES
+-- Turni per l'Ospedale prontosoccorso san martino (Genova)
+('2024-09-19', '00:00', '08:00', 'CF103', 'Pronto Soccorso San Martino', 1),
+('2024-09-19', '08:00', '16:00', 'CF106', 'Pronto Soccorso San Martino', 1),
+('2024-09-19', '16:00', '24:00', 'CF109', 'Pronto Soccorso San Martino', 1),
+-- Turni per l'Ospedale prontosoccorso Galliera (Genova)
+('2024-09-19', '00:00', '08:00', 'CF112', 'Pronto Soccorso Galliera', 2),
+('2024-09-19', '08:00', '16:00', 'CF115', 'Pronto Soccorso Galliera', 2),
+('2024-09-19', '16:00', '24:00', 'CF118', 'Pronto Soccorso Galliera', 2);
+
+-- Popolamento della tabella TURNO_MEDICO
+INSERT INTO TURNO_MEDICO (data, orario_inizio, orario_fine, cf, prontosoccorso, ospedale)
+VALUES
+-- Turni per l'Ospedale prontosoccorso San Martino (Genova)
+('2024-09-19', '00:00', '08:00', 'CF203', 'Pronto Soccorso San Martino', 1),
+('2024-09-19', '08:00', '16:00', 'CF206', 'Pronto Soccorso San Martino', 1),
+('2024-09-19', '16:00', '24:00', 'CF209', 'Pronto Soccorso San Martino', 1),
+-- Turni per l'Ospedale  Galliera (Genova)
+('2024-09-19', '00:00', '08:00', 'CF212', 'Pronto Soccorso Galliera', 2),
+('2024-09-19', '08:00', '16:00', 'CF215', 'Pronto Soccorso Galliera', 2),
+('2024-09-19', '16:00', '24:00', 'CF218', 'Pronto Soccorso Galliera', 2);
+
+-- Popolamento della tabella PRIMARIO
+INSERT INTO PRIMARIO (cf)
+VALUES
+('CF201'),
+('CF202'),
+('CF203'),
+('CF207'),
+('CF209'),
+('CF211'),
+('CF213'),
+('CF215'),
+('CF217');
+
+-- Popolamento della tabella VICEPRIMARIO
+INSERT INTO VICEPRIMARIO (cf)
+VALUES
+('CF204'),
+('CF205'),
+('CF206'),
+('CF208'),
+('CF210'),
+('CF212'),
+('CF214'),
+('CF216'),
+('CF218');
+
+-- Popolamento della tabella SOSTITUZIONE
+INSERT INTO SOSTITUZIONE (primario, viceprimario, data_inizio, data_fine)
+VALUES
+('CF201', 'CF204', '2024-09-19', '2024-09-30'),
+('CF201', 'CF204', '2024-08-10', '2024-09-10'),
+('CF202', 'CF205', '2024-09-12', '2024-09-15'),
+('CF203', 'CF206', '2024-09-20', '2024-09-22');
+
+-- Popolamento della tabella SPECIALIZZAZIONE
+INSERT INTO SPECIALIZZAZIONE (nome)
+VALUES
+('Dermatologia'),
+('Ginecologia'),
+('Oculistica'),
+('Neurologia'),
+('Chirurgia Plastica');
+
+-- Popolamento della tabella SPECIALIZZA
+INSERT INTO SPECIALIZZA (primario, specializzazione)
+VALUES
+('CF201', 'Dermatologia'),
+('CF202', 'Ginecologia'),
+('CF203', 'Oculistica'),
+('CF207', 'Ginecologia'),
+('CF209', 'Neurologia'),
+('CF211', 'Dermatologia'),
+('CF213', 'Oculistica'),
+('CF215', 'Chirurgia Plastica'),
+('CF217', 'Ginecologia');
+
+-- Popolamento della tabella ESAME
+INSERT INTO ESAME (descrizione, costoPR, costoPU) VALUES
+('Visita Dermatologica', 60.00, 80.00),
+('Ecografia', 90.00, 110.00),
+('Esame della Vista', 70.00, 90.00);
+
+-- Popolamento della tabella STANZA
+INSERT INTO STANZA (numero, piano, reparto_nome, reparto_ospedale) VALUES
+(201, 2, 'Dermatologia', 1),
+(202, 2, 'Dermatologia', 1),
+(301, 3, 'Ginecologia', 1),
+(302, 3, 'Ginecologia', 1),
+(401, 4, 'Oculistica', 1),
+(402, 4, 'Oculistica', 1),
+(201, 2, 'Dermatologia', 2),
+(202, 2, 'Dermatologia', 2),
+(301, 3, 'Ginecologia', 2),
+(302, 3, 'Ginecologia', 2),
+(401, 4, 'Oculistica', 2),
+(402, 4, 'Oculistica', 2);
+
+-- Popolamento della tabella SALA_OPERATORIA
+-- Assumendo che gli id delle stanze siano assegnati sequenzialmente a partire da 1
+-- Le stanze inserite prima riceveranno id da 1 a 12
+INSERT INTO SALA_OPERATORIA (nome, stanza) VALUES
+('Sala Operatoria Dermatologia', 1),
+('Sala Operatoria Oculistica', 5),
+('Sala Operatoria Ginecologia', 3);
+
+-- Popolamento della tabella LETTO
+INSERT INTO LETTO (numero, stanza) VALUES
+(1, 1),
+(2, 1),
+(1, 2),
+(2, 2),
+(1, 3),
+(2, 3),
+(1, 4),
+(2, 4),
+(1, 5),
+(2, 5),
+(1, 6),
+(2, 6),
+(1, 7),
+(2, 7),
+(1, 8),
+(2, 8),
+(1, 9),
+(2, 9),
+(1, 10),
+(2, 10),
+(1, 11),
+(2, 11),
+(1, 12),
+(2, 12);
+
+-- Popolamento della tabella PAZIENTE
+INSERT INTO PAZIENTE (cf, nome, cognome, data_nascita) VALUES
+('CF401', 'Marco', 'Neri', '1985-02-10'),
+('CF402', 'Giulia', 'Rossetti', '1978-06-24'),
+('CF403', 'Alessandro', 'De Angelis', '1991-09-12'),
+('CF404', 'Francesca', 'Bianchi', '1987-11-05'),
+('CF405', 'Simone', 'Amico', '1993-03-18');
+
+-- Popolamento della tabella RICOVERO
+INSERT INTO RICOVERO (data_inizio, paziente, data_fine, letto, stanza) VALUES
+('2024-09-01', 'CF401', '2024-09-15', 1, 3),
+('2024-09-02', 'CF402', '2024-09-20', 2, 3),
+('2024-09-03', 'CF403', NULL, 1, 8);
+
+-- Popolamento della tabella PATOLOGIA
+INSERT INTO PATOLOGIA (nome) VALUES
+('Eczema'),
+('Endometriosi'),
+('Cataratta'),
+('Emicrania');
+
+-- Popolamento della tabella PRESENTA
+INSERT INTO PRESENTA (paziente, patologia) VALUES
+('CF401', 'Eczema'),
+('CF402', 'Endometriosi'),
+('CF403', 'Cataratta');
+
+-- Popolamento della tabella AMBULATORIO_INTERNO
+INSERT INTO AMBULATORIO_INTERNO (stanza) VALUES
+(2),
+(4),
+(6),
+(7),
+(10),
+(12);
+
+-- Popolamento della tabella DISPONIBILITA_INTERNA
+-- Assumendo che i codiceAI siano assegnati automaticamente a partire da 1
+INSERT INTO DISPONIBILITA_INTERNA (data, ora, ambulatorio_interno, esame) VALUES
+('2024-09-19', '08:00:00', 1, 1),
+('2024-09-19', '09:00:00', 2, 2),
+('2024-09-19', '10:00:00', 3, 3),
+('2024-09-19', '11:00:00', 4, 3);
+
+-- Popolamento della tabella AMBULATORIO_ESTERNO
+INSERT INTO AMBULATORIO_ESTERNO (orario_apertura, indirizzo, telefono) VALUES
+('09:00:00', 'Via Dante 10, Genova', '055-987654'),
+('08:00:00', 'Corso Garibaldi 15, Genova', '081-876543');
+
+-- Popolamento della tabella DISPONIBILITA_ESTERNA
+INSERT INTO DISPONIBILITA_ESTERNA (data, ora, ambulatorio_esterno, esame) VALUES
+('2024-09-19', '10:00:00', 1, 1),
+('2024-09-19', '11:00:00', 2, 2),
+('2024-09-19', '12:00:00', 2, 2);
+
+-- Popolamento della tabella PRENOTAZIONE_ESAME
+INSERT INTO PRENOTAZIONE_ESAME (data_di_prenotazione, regime, urgenza, data, ora, paziente, esame, medico_prescrittore, avvertenze) VALUES
+('2024-09-03', 'Pubblico', 'Verde', '2024-09-19', '08:00:00', 'CF401', 1, 'Dr. Riccardo Barbieri', 'Portare la tessera sanitaria.'),
+('2024-09-03', 'Privato', 'Rosso', '2024-09-19', '09:00:00', 'CF402', 2, NULL, NULL),
+('2024-09-03', 'Pubblico', 'Giallo', '2024-09-19', '10:00:00', 'CF403', 3, NULL, NULL),
+('2024-09-03', 'Privato', 'Giallo', '2024-09-19', '10:00:00', 'CF404', 1, 'Dr. Elena Moretti', 'Portare gli esami precedenti.'),
+('2024-09-03', 'Pubblico', 'Verde', '2024-09-19', '11:00:00', 'CF405', 2, NULL, NULL);
+
+-- Popolamento della tabella PRENOTA_INTERNO
+-- Assumendo che i codice_prenotazione siano assegnati automaticamente a partire da 1
+INSERT INTO PRENOTA_INTERNO (codice_prenotazione, codice_ambulatorio_interno)
+VALUES
+(1, 1),
+(2, 2),
+(3, 3);
+
+-- Popolamento della tabella PRENOTA_ESTERNO
+INSERT INTO PRENOTA_ESTERNO (codice_prenotazione, codice_ambulatorio_esterno)
+VALUES
+(4, 1),
+(5, 2);

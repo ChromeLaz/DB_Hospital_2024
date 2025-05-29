@@ -1,0 +1,31 @@
+Definizione delle 3 seguenti interrogazioni:
+
+	a. Determinare i vice primari che hanno sostituito esattamente una volta il proprio
+	primario.
+	b. Determinare i vice primari che hanno sostituito almeno due volte il proprio primario.
+	c. Determinare i vice primari che non hanno mai sostituito il proprio primario.
+
+
+A)
+SELECT viceprimario, COUNT(*) as numero_sostituzioni
+FROM SOSTITUZIONE
+GROUP BY viceprimario
+HAVING COUNT(*) = 1;
+
+B)
+SELECT viceprimario, COUNT(*) as numero_sostituzioni
+FROM SOSTITUZIONE
+GROUP BY viceprimario
+HAVING COUNT(*) >= 2;
+
+C)
+SELECT cf
+FROM VICEPRIMARIO
+WHERE cf NOT IN (
+    SELECT viceprimario
+    FROM SOSTITUZIONE
+);
+
+
+
+

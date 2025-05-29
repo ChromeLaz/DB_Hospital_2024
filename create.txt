@@ -1,0 +1,286 @@
+-- Tabella OSPEDALE
+CREATE TABLE OSPEDALE (
+    codice SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    città VARCHAR(255) NOT NULL,
+    indirizzo VARCHAR(255) NOT NULL
+);
+
+-- Tabella ESAME
+CREATE TABLE ESAME (
+    codice SERIAL PRIMARY KEY,
+    descrizione VARCHAR(255) NOT NULL,
+    costoPR DECIMAL(10, 2) NOT NULL,
+    costoPU DECIMAL(10, 2) NOT NULL
+);
+
+-- Tabella REPARTO
+CREATE TABLE REPARTO (
+    nome VARCHAR(255) NOT NULL,
+    ospedale INT NOT NULL,
+    telefono VARCHAR(20) NOT NULL,
+    orario_visita VARCHAR(50) NOT NULL,
+    PRIMARY KEY (nome, ospedale),
+    FOREIGN KEY (ospedale) REFERENCES OSPEDALE(codice) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella PS
+CREATE TABLE PRONTOSOCCORSO (
+    nome VARCHAR(255) NOT NULL,
+    ospedale INT NOT NULL,
+    PRIMARY KEY (nome, ospedale),
+    FOREIGN KEY (ospedale) REFERENCES OSPEDALE(codice) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella INFERMIERE
+CREATE TABLE INFERMIERE (
+    cf VARCHAR(255) PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cognome VARCHAR(255) NOT NULL
+);
+
+-- Tabella MEDICO
+CREATE TABLE MEDICO (
+    cf VARCHAR(255) PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cognome VARCHAR(255) NOT NULL,
+    data_assunzione DATE NOT NULL
+);
+
+-- Tabella PERSONALE AMMINISTRATIVO
+CREATE TABLE PERSONALE_AMMINISTRATIVO (
+    cf VARCHAR(255) PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cognome VARCHAR(255) NOT NULL
+);
+
+-- Tabella IMPIEGO INFERMIERE
+CREATE TABLE RUOLO_INFERMIERE (
+    data_inizio DATE NOT NULL,
+    infermiere VARCHAR(255) NOT NULL,
+    reparto_nome VARCHAR(255) NOT NULL,
+    reparto_ospedale INT NOT NULL,
+    PRIMARY KEY (data_inizio, infermiere, reparto_nome, reparto_ospedale),
+    FOREIGN KEY (infermiere) REFERENCES INFERMIERE(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (reparto_nome, reparto_ospedale) REFERENCES REPARTO(nome, ospedale) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella IMPIEGO MEDICO
+CREATE TABLE RUOLO_MEDICO (
+    data_inizio DATE NOT NULL,
+    medico VARCHAR(255) NOT NULL,
+    reparto_nome VARCHAR(255) NOT NULL,
+    reparto_ospedale INT NOT NULL,
+    PRIMARY KEY (data_inizio, medico, reparto_nome, reparto_ospedale),
+    FOREIGN KEY (medico) REFERENCES MEDICO(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (reparto_nome, reparto_ospedale) REFERENCES REPARTO(nome, ospedale) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella IMPIEGO AMMINISTRATIVO
+CREATE TABLE RUOLO_AMMINISTRATIVO (
+    data_inizio DATE NOT NULL,
+    amministrativo VARCHAR(255) NOT NULL,
+    reparto_nome VARCHAR(255) NOT NULL,
+    reparto_ospedale INT NOT NULL,
+    PRIMARY KEY (data_inizio, amministrativo, reparto_nome, reparto_ospedale),
+    FOREIGN KEY (amministrativo) REFERENCES PERSONALE_AMMINISTRATIVO(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (reparto_nome, reparto_ospedale) REFERENCES REPARTO(nome, ospedale) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- Tabella TURNO INFERMIERE
+CREATE TABLE TURNO_INFERMIERE (
+    data DATE NOT NULL,
+    orario_inizio TIME NOT NULL,
+    orario_fine TIME NOT NULL,
+    cf VARCHAR(255) NOT NULL,
+    prontosoccorso VARCHAR(255) NOT NULL,
+    ospedale INT NOT NULL,
+    PRIMARY KEY (data, cf, prontosoccorso, ospedale),
+    FOREIGN KEY (cf) REFERENCES INFERMIERE(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (prontosoccorso, ospedale) REFERENCES PRONTOSOCCORSO(nome, ospedale) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (ospedale) REFERENCES OSPEDALE(codice) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella TURNO MEDICO
+CREATE TABLE TURNO_MEDICO (
+    data DATE NOT NULL,
+    orario_inizio TIME NOT NULL,
+    orario_fine TIME NOT NULL,
+    cf VARCHAR(255) NOT NULL,
+    prontosoccorso VARCHAR(255) NOT NULL,
+    ospedale INT NOT NULL,
+    PRIMARY KEY (data, cf, prontosoccorso, ospedale),
+    FOREIGN KEY (cf) REFERENCES MEDICO(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (prontosoccorso, ospedale) REFERENCES PRONTOSOCCORSO(nome, ospedale) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (ospedale) REFERENCES OSPEDALE(codice) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella PRIMARIO
+CREATE TABLE PRIMARIO (
+    cf VARCHAR(255) PRIMARY KEY,
+    FOREIGN KEY (cf) REFERENCES MEDICO(cf) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella VICEPRIMARIO
+CREATE TABLE VICEPRIMARIO (
+    cf VARCHAR(255) PRIMARY KEY,
+    FOREIGN KEY (cf) REFERENCES MEDICO(cf) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella SOSTITUZIONE
+CREATE TABLE SOSTITUZIONE (
+    primario VARCHAR(255) NOT NULL,
+    viceprimario VARCHAR(255) NOT NULL,
+    data_inizio DATE NOT NULL,
+    data_fine DATE NOT NULL,
+    PRIMARY KEY (primario, viceprimario, data_inizio),
+    FOREIGN KEY (primario) REFERENCES PRIMARIO(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (viceprimario) REFERENCES VICEPRIMARIO(cf) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella SPECIALIZZAZIONE
+CREATE TABLE SPECIALIZZAZIONE (
+    nome VARCHAR(255) PRIMARY KEY
+);
+
+-- Tabella SPECIALIZZA
+CREATE TABLE SPECIALIZZA (
+    primario VARCHAR(255) NOT NULL,
+    specializzazione VARCHAR(255) NOT NULL,
+    PRIMARY KEY (primario, specializzazione),
+    FOREIGN KEY (primario) REFERENCES PRIMARIO(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (specializzazione) REFERENCES SPECIALIZZAZIONE(nome) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella STANZA
+CREATE TABLE STANZA (
+    id SERIAL PRIMARY KEY,
+    numero INT NOT NULL,
+    piano INT NOT NULL,
+    reparto_nome VARCHAR(255) NOT NULL,
+    reparto_ospedale INT NOT NULL,
+    FOREIGN KEY (reparto_nome, reparto_ospedale) REFERENCES REPARTO(nome, ospedale) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE SALA_OPERATORIA (
+    nome VARCHAR(255) NOT NULL,
+    stanza INT NOT NULL,
+    PRIMARY KEY (stanza),
+    FOREIGN KEY (stanza) REFERENCES STANZA(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- Tabella LETTO
+CREATE TABLE LETTO (
+    numero INT NOT NULL,
+    stanza INT NOT NULL,
+    PRIMARY KEY (numero, stanza),
+    FOREIGN KEY (stanza) REFERENCES STANZA(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella PAZIENTE
+CREATE TABLE PAZIENTE (
+    cf VARCHAR(255) PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cognome VARCHAR(255) NOT NULL,
+    data_nascita DATE NOT NULL
+);
+
+CREATE TABLE RICOVERO (
+    data_inizio DATE NOT NULL,
+    paziente VARCHAR(255) NOT NULL,
+    data_fine DATE,
+    letto INT NOT NULL,
+    stanza INT NOT NULL,
+    PRIMARY KEY (data_inizio, paziente),
+    FOREIGN KEY (paziente) REFERENCES PAZIENTE(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (letto, stanza) REFERENCES LETTO(numero, stanza) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella PATOLOGIA
+CREATE TABLE PATOLOGIA (
+    nome VARCHAR(255) PRIMARY KEY
+);
+
+-- Tabella PRESENTA
+CREATE TABLE PRESENTA (
+    paziente CHAR(16) NOT NULL,
+    patologia VARCHAR(255) NOT NULL,
+    PRIMARY KEY (paziente, patologia),
+    FOREIGN KEY (paziente) REFERENCES PAZIENTE(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (patologia) REFERENCES PATOLOGIA(nome) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella AMBULATORIO INTERNO
+CREATE TABLE AMBULATORIO_INTERNO (
+    codiceAI SERIAL PRIMARY KEY,
+    stanza INT NOT NULL,
+    FOREIGN KEY (stanza) REFERENCES STANZA(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella DISPONIBILITA' INTERNA
+CREATE TABLE DISPONIBILITA_INTERNA (
+    data DATE NOT NULL,
+    ora TIME NOT NULL,
+    ambulatorio_interno INT NOT NULL,
+    esame INT NOT NULL,
+    PRIMARY KEY (data, ora, ambulatorio_interno),
+    FOREIGN KEY (ambulatorio_interno) REFERENCES AMBULATORIO_INTERNO(codiceAI) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (esame) REFERENCES ESAME(codice) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella AMBULATORIO ESTERNO
+CREATE TABLE AMBULATORIO_ESTERNO (
+    codiceAE SERIAL PRIMARY KEY,
+    orario_apertura TIME NOT NULL,
+    indirizzo VARCHAR(255) NOT NULL,
+    telefono VARCHAR(20) NOT NULL
+);
+
+-- Tabella DISPONIBILITA' ESTERNA
+CREATE TABLE DISPONIBILITA_ESTERNA (
+    data DATE NOT NULL,
+    ora TIME NOT NULL,
+    ambulatorio_esterno INT NOT NULL,
+    esame INT NOT NULL,
+    PRIMARY KEY (data, ora, ambulatorio_esterno),
+    FOREIGN KEY (ambulatorio_esterno) REFERENCES AMBULATORIO_ESTERNO(codiceAE) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (esame) REFERENCES ESAME(codice) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella PRENOTAZIONE ESAME 
+CREATE TABLE PRENOTAZIONE_ESAME (
+    codice_prenotazione SERIAL PRIMARY KEY,
+    data_di_prenotazione DATE NOT NULL,
+    regime VARCHAR(50) NOT NULL,
+    urgenza VARCHAR(20) NOT NULL,
+    data DATE NOT NULL,
+    ora TIME NOT NULL,
+    paziente VARCHAR(255) NOT NULL,
+    esame INT NOT NULL,
+    medico_prescrittore VARCHAR(255),
+    avvertenze TEXT,
+    FOREIGN KEY (paziente) REFERENCES PAZIENTE(cf) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (esame) REFERENCES ESAME(codice) ON DELETE CASCADE ON UPDATE CASCADE,
+    UNIQUE (paziente, esame, data)				
+);
+
+
+-- Tabella PRENOTA INTERNO
+CREATE TABLE PRENOTA_INTERNO (
+    codice_prenotazione INT NOT NULL,
+    codice_ambulatorio_interno INT NOT NULL,
+    PRIMARY KEY (codice_prenotazione),
+    FOREIGN KEY (codice_ambulatorio_interno) REFERENCES AMBULATORIO_INTERNO(codiceAI) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (codice_prenotazione) REFERENCES PRENOTAZIONE_ESAME(codice_prenotazione) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Tabella PRENOTA ESTERNO
+CREATE TABLE PRENOTA_ESTERNO (
+    codice_prenotazione INT NOT NULL,
+    codice_ambulatorio_esterno INT NOT NULL,
+    PRIMARY KEY (codice_prenotazione),
+    FOREIGN KEY (codice_ambulatorio_esterno) REFERENCES AMBULATORIO_ESTERNO(codiceAE) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (codice_prenotazione) REFERENCES PRENOTAZIONE_ESAME(codice_prenotazione) ON DELETE CASCADE ON UPDATE CASCADE
+);
